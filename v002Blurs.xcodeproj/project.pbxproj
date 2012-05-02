@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		233E2C640A83C768005A62DF /* Build & Copy */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 233E2D890A83C7AC005A62DF /* Build configuration list for PBXAggregateTarget "Build & Copy" */;
+			buildPhases = (
+				233E2C690A83C783005A62DF /* ShellScript */,
+			);
+			dependencies = (
+				233E2C660A83C76D005A62DF /* PBXTargetDependency */,
+			);
+			name = "Build & Copy";
+			productName = "Build & Install";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		16BA96310A7EB9AC001E4983 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BA96300A7EB9AC001E4983 /* Quartz.framework */; };
+		1B1896490F0EFA35007D7CA8 /* v002BlurPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1896480F0EFA35007D7CA8 /* v002BlurPlugIn.m */; };
+		1B5879A51550B426006A9933 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1B58799D1550B426006A9933 /* README.md */; };
+		1B5879A61550B426006A9933 /* v002FBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B58799F1550B426006A9933 /* v002FBO.m */; };
+		1B5879A71550B426006A9933 /* v002MasterPluginInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5879A11550B426006A9933 /* v002MasterPluginInterface.m */; };
+		1B5879A81550B426006A9933 /* v002Shader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5879A31550B426006A9933 /* v002Shader.m */; };
+		1B5B5F8210082F220043536B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5B5F8110082F220043536B /* CoreVideo.framework */; };
+		1B885F5C0F0B119F00770B6D /* v002MotionBlurPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B885F5B0F0B119F00770B6D /* v002MotionBlurPlugIn.m */; };
+		1B885F6A0F0B11C000770B6D /* v002ZoomBlurPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B885F680F0B11C000770B6D /* v002ZoomBlurPlugIn.m */; };
+		1B885F6D0F0B11F800770B6D /* v002.zoomblur.frag in Resources */ = {isa = PBXBuildFile; fileRef = 1B885F660F0B11BA00770B6D /* v002.zoomblur.frag */; };
+		1B885F6E0F0B11F800770B6D /* v002.zoomblur.vert in Resources */ = {isa = PBXBuildFile; fileRef = 1B885F670F0B11BA00770B6D /* v002.zoomblur.vert */; };
+		1B885F6F0F0B11F800770B6D /* v002.motionblur.frag in Resources */ = {isa = PBXBuildFile; fileRef = 1B885F580F0B119F00770B6D /* v002.motionblur.frag */; };
+		1B885F700F0B11F800770B6D /* v002.motionblur.vert in Resources */ = {isa = PBXBuildFile; fileRef = 1B885F590F0B119F00770B6D /* v002.motionblur.vert */; };
+		1B885F710F0B11F800770B6D /* v002.blur.frag in Resources */ = {isa = PBXBuildFile; fileRef = 1B885F4C0F0B117A00770B6D /* v002.blur.frag */; };
+		1B885F720F0B11F800770B6D /* v002.blur.vert in Resources */ = {isa = PBXBuildFile; fileRef = 1B885F4D0F0B117A00770B6D /* v002.blur.vert */; };
+		1B885F7E0F0B120900770B6D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B885F7D0F0B120900770B6D /* OpenGL.framework */; };
+		1B8C1CB5104B9C0A004084DA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1B8C1CB4104B9C0A004084DA /* icon.icns */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		233E2C650A83C76D005A62DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
+			remoteInfo = v002Blurs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		16AA5C440A7EEE7300888E31 /* v002Blurs_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = v002Blurs_Prefix.pch; sourceTree = "<group>"; };
+		16BA96300A7EB9AC001E4983 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		1B1896470F0EFA35007D7CA8 /* v002BlurPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002BlurPlugIn.h; sourceTree = "<group>"; };
+		1B1896480F0EFA35007D7CA8 /* v002BlurPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002BlurPlugIn.m; sourceTree = "<group>"; };
+		1B58799D1550B426006A9933 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1B58799E1550B426006A9933 /* v002FBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002FBO.h; sourceTree = "<group>"; };
+		1B58799F1550B426006A9933 /* v002FBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002FBO.m; sourceTree = "<group>"; };
+		1B5879A01550B426006A9933 /* v002MasterPluginInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002MasterPluginInterface.h; sourceTree = "<group>"; };
+		1B5879A11550B426006A9933 /* v002MasterPluginInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002MasterPluginInterface.m; sourceTree = "<group>"; };
+		1B5879A21550B426006A9933 /* v002Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002Shader.h; sourceTree = "<group>"; };
+		1B5879A31550B426006A9933 /* v002Shader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002Shader.m; sourceTree = "<group>"; };
+		1B5879A41550B426006A9933 /* v002UniqueClassNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002UniqueClassNames.h; sourceTree = "<group>"; };
+		1B5B5F8110082F220043536B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		1B885F4C0F0B117A00770B6D /* v002.blur.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = v002.blur.frag; sourceTree = "<group>"; };
+		1B885F4D0F0B117A00770B6D /* v002.blur.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = v002.blur.vert; sourceTree = "<group>"; };
+		1B885F580F0B119F00770B6D /* v002.motionblur.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = v002.motionblur.frag; sourceTree = "<group>"; };
+		1B885F590F0B119F00770B6D /* v002.motionblur.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = v002.motionblur.vert; sourceTree = "<group>"; };
+		1B885F5A0F0B119F00770B6D /* v002MotionBlurPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002MotionBlurPlugIn.h; sourceTree = "<group>"; };
+		1B885F5B0F0B119F00770B6D /* v002MotionBlurPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002MotionBlurPlugIn.m; sourceTree = "<group>"; };
+		1B885F660F0B11BA00770B6D /* v002.zoomblur.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = v002.zoomblur.frag; sourceTree = "<group>"; };
+		1B885F670F0B11BA00770B6D /* v002.zoomblur.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = v002.zoomblur.vert; sourceTree = "<group>"; };
+		1B885F680F0B11C000770B6D /* v002ZoomBlurPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002ZoomBlurPlugIn.m; sourceTree = "<group>"; };
+		1B885F690F0B11C000770B6D /* v002ZoomBlurPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002ZoomBlurPlugIn.h; sourceTree = "<group>"; };
+		1B885F7D0F0B120900770B6D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		1B8C1CB4104B9C0A004084DA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* v002Blurs.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = v002Blurs.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				16BA96310A7EB9AC001E4983 /* Quartz.framework in Frameworks */,
+				1B885F7E0F0B120900770B6D /* OpenGL.framework in Frameworks */,
+				1B5B5F8210082F220043536B /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Quartz Composer Plug In */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "Quartz Composer Plug In";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B5B5F8110082F220043536B /* CoreVideo.framework */,
+				1B885F7D0F0B120900770B6D /* OpenGL.framework */,
+				16BA96300A7EB9AC001E4983 /* Quartz.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B885F660F0B11BA00770B6D /* v002.zoomblur.frag */,
+				1B885F670F0B11BA00770B6D /* v002.zoomblur.vert */,
+				1B885F580F0B119F00770B6D /* v002.motionblur.frag */,
+				1B885F590F0B119F00770B6D /* v002.motionblur.vert */,
+				1B885F4C0F0B117A00770B6D /* v002.blur.frag */,
+				1B885F4D0F0B117A00770B6D /* v002.blur.vert */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				1B8C1CB4104B9C0A004084DA /* icon.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B58799C1550B426006A9933 /* v002 Utilities */,
+				1B885F520F0B118100770B6D /* Blur */,
+				1B885F5D0F0B11AC00770B6D /* Motion Blur */,
+				1B885F6B0F0B11C200770B6D /* Zoom Blur */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* v002Blurs.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B58799C1550B426006A9933 /* v002 Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1B58799D1550B426006A9933 /* README.md */,
+				1B58799E1550B426006A9933 /* v002FBO.h */,
+				1B58799F1550B426006A9933 /* v002FBO.m */,
+				1B5879A01550B426006A9933 /* v002MasterPluginInterface.h */,
+				1B5879A11550B426006A9933 /* v002MasterPluginInterface.m */,
+				1B5879A21550B426006A9933 /* v002Shader.h */,
+				1B5879A31550B426006A9933 /* v002Shader.m */,
+				1B5879A41550B426006A9933 /* v002UniqueClassNames.h */,
+			);
+			path = "v002 Utilities";
+			sourceTree = "<group>";
+		};
+		1B885F520F0B118100770B6D /* Blur */ = {
+			isa = PBXGroup;
+			children = (
+				1B1896470F0EFA35007D7CA8 /* v002BlurPlugIn.h */,
+				1B1896480F0EFA35007D7CA8 /* v002BlurPlugIn.m */,
+			);
+			name = Blur;
+			sourceTree = "<group>";
+		};
+		1B885F5D0F0B11AC00770B6D /* Motion Blur */ = {
+			isa = PBXGroup;
+			children = (
+				1B885F5A0F0B119F00770B6D /* v002MotionBlurPlugIn.h */,
+				1B885F5B0F0B119F00770B6D /* v002MotionBlurPlugIn.m */,
+			);
+			name = "Motion Blur";
+			sourceTree = "<group>";
+		};
+		1B885F6B0F0B11C200770B6D /* Zoom Blur */ = {
+			isa = PBXGroup;
+			children = (
+				1B885F690F0B11C000770B6D /* v002ZoomBlurPlugIn.h */,
+				1B885F680F0B11C000770B6D /* v002ZoomBlurPlugIn.m */,
+			);
+			name = "Zoom Blur";
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				16AA5C440A7EEE7300888E31 /* v002Blurs_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* v002Blurs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "v002Blurs" */;
+			buildPhases = (
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				1B885F7C0F0B120500770B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = v002Blurs;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "Quartz Composer Plug In";
+			productReference = 8D5B49B6048680CD000E48DA /* v002Blurs.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "v002Blurs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* Quartz Composer Plug In */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* v002Blurs */,
+				233E2C640A83C768005A62DF /* Build & Copy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B885F7C0F0B120500770B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B885F6D0F0B11F800770B6D /* v002.zoomblur.frag in Resources */,
+				1B885F6E0F0B11F800770B6D /* v002.zoomblur.vert in Resources */,
+				1B885F6F0F0B11F800770B6D /* v002.motionblur.frag in Resources */,
+				1B885F700F0B11F800770B6D /* v002.motionblur.vert in Resources */,
+				1B885F710F0B11F800770B6D /* v002.blur.frag in Resources */,
+				1B885F720F0B11F800770B6D /* v002.blur.vert in Resources */,
+				1B8C1CB5104B9C0A004084DA /* icon.icns in Resources */,
+				1B5879A51550B426006A9933 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		233E2C690A83C783005A62DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies the built plug-in to \"~/Library/Graphics/Quartz Composer Plug-Ins\" and overrides any previous version at that location\n\nmkdir -p \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins\"\nrm -rf \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/v002Blurs.plugin\"\ncp -rf \"$BUILT_PRODUCTS_DIR/v002Blurs.plugin\" \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1896490F0EFA35007D7CA8 /* v002BlurPlugIn.m in Sources */,
+				1B885F6A0F0B11C000770B6D /* v002ZoomBlurPlugIn.m in Sources */,
+				1B885F5C0F0B119F00770B6D /* v002MotionBlurPlugIn.m in Sources */,
+				1B5879A61550B426006A9933 /* v002FBO.m in Sources */,
+				1B5879A71550B426006A9933 /* v002MasterPluginInterface.m in Sources */,
+				1B5879A81550B426006A9933 /* v002Shader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		233E2C660A83C76D005A62DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5B49AC048680CD000E48DA /* v002Blurs */;
+			targetProxy = 233E2C650A83C76D005A62DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = v002Blurs_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_NAME = v002Blurs;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = v002Blurs_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_NAME = v002Blurs;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		233E2D8A0A83C7AC005A62DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Build & Install";
+			};
+			name = Debug;
+		};
+		233E2D8B0A83C7AC005A62DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Build & Install";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "v002Blurs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "v002Blurs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233E2D890A83C7AC005A62DF /* Build configuration list for PBXAggregateTarget "Build & Copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233E2D8A0A83C7AC005A62DF /* Debug */,
+				233E2D8B0A83C7AC005A62DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
