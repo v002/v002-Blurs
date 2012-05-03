@@ -24,6 +24,7 @@
 /* Begin PBXBuildFile section */
 		16BA96310A7EB9AC001E4983 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BA96300A7EB9AC001E4983 /* Quartz.framework */; };
 		1B1896490F0EFA35007D7CA8 /* v002BlurPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1896480F0EFA35007D7CA8 /* v002BlurPlugIn.m */; };
+		1B37142615522BF6001B63B5 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1B37142515522BF6001B63B5 /* icon.icns */; };
 		1B5879A51550B426006A9933 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1B58799D1550B426006A9933 /* README.md */; };
 		1B5879A61550B426006A9933 /* v002FBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B58799F1550B426006A9933 /* v002FBO.m */; };
 		1B5879A71550B426006A9933 /* v002MasterPluginInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5879A11550B426006A9933 /* v002MasterPluginInterface.m */; };
@@ -38,7 +39,6 @@
 		1B885F710F0B11F800770B6D /* v002.blur.frag in Resources */ = {isa = PBXBuildFile; fileRef = 1B885F4C0F0B117A00770B6D /* v002.blur.frag */; };
 		1B885F720F0B11F800770B6D /* v002.blur.vert in Resources */ = {isa = PBXBuildFile; fileRef = 1B885F4D0F0B117A00770B6D /* v002.blur.vert */; };
 		1B885F7E0F0B120900770B6D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B885F7D0F0B120900770B6D /* OpenGL.framework */; };
-		1B8C1CB5104B9C0A004084DA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1B8C1CB4104B9C0A004084DA /* icon.icns */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,10 +54,11 @@
 
 /* Begin PBXFileReference section */
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		16AA5C440A7EEE7300888E31 /* v002 Blurs_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; path = "v002 Blurs_Prefix.pch"; sourceTree = "<group>"; };
+		16AA5C440A7EEE7300888E31 /* v002 Blurs_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "v002 Blurs_Prefix.pch"; sourceTree = "<group>"; };
 		16BA96300A7EB9AC001E4983 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
 		1B1896470F0EFA35007D7CA8 /* v002BlurPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002BlurPlugIn.h; sourceTree = "<group>"; };
 		1B1896480F0EFA35007D7CA8 /* v002BlurPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002BlurPlugIn.m; sourceTree = "<group>"; };
+		1B37142515522BF6001B63B5 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = "v002 Utilities/icon.icns"; sourceTree = "<group>"; };
 		1B58799D1550B426006A9933 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		1B58799E1550B426006A9933 /* v002FBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002FBO.h; sourceTree = "<group>"; };
 		1B58799F1550B426006A9933 /* v002FBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002FBO.m; sourceTree = "<group>"; };
@@ -78,7 +79,6 @@
 		1B885F680F0B11C000770B6D /* v002ZoomBlurPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002ZoomBlurPlugIn.m; sourceTree = "<group>"; };
 		1B885F690F0B11C000770B6D /* v002ZoomBlurPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002ZoomBlurPlugIn.h; sourceTree = "<group>"; };
 		1B885F7D0F0B120900770B6D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		1B8C1CB4104B9C0A004084DA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* v002 Blurs.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "v002 Blurs.plugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +124,7 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1B37142515522BF6001B63B5 /* icon.icns */,
 				1B885F660F0B11BA00770B6D /* v002.zoomblur.frag */,
 				1B885F670F0B11BA00770B6D /* v002.zoomblur.vert */,
 				1B885F580F0B119F00770B6D /* v002.motionblur.frag */,
@@ -131,7 +132,6 @@
 				1B885F4C0F0B117A00770B6D /* v002.blur.frag */,
 				1B885F4D0F0B117A00770B6D /* v002.blur.vert */,
 				8D5B49B7048680CD000E48DA /* Info.plist */,
-				1B8C1CB4104B9C0A004084DA /* icon.icns */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -265,8 +265,8 @@
 				1B885F700F0B11F800770B6D /* v002.motionblur.vert in Resources */,
 				1B885F710F0B11F800770B6D /* v002.blur.frag in Resources */,
 				1B885F720F0B11F800770B6D /* v002.blur.vert in Resources */,
-				1B8C1CB5104B9C0A004084DA /* icon.icns in Resources */,
 				1B5879A51550B426006A9933 /* README.md in Resources */,
+				1B37142615522BF6001B63B5 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +323,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "v002 Blurs_Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "V002_UNIQUE_CLASS_NAME_PREFIX=v002Blurs";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
 				PRODUCT_NAME = "v002 Blurs";
@@ -339,6 +340,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "v002 Blurs_Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "V002_UNIQUE_CLASS_NAME_PREFIX=v002Blurs";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
 				PRODUCT_NAME = "v002 Blurs";
