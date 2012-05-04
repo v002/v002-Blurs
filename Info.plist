@@ -7,11 +7,11 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleGetInfoString</key>
-	<string>v002Blurs version 2.0.2, Copyright vade.</string>
+	<string>v002 Blurs version 2.0.3 © 2009-2012 vade &amp; bangnoise</string>
 	<key>CFBundleIconFile</key>
 	<string>icon</string>
 	<key>CFBundleIdentifier</key>
-	<string>info.vade.${PRODUCT_NAME:identifier}</string>
+	<string>info.v002.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
