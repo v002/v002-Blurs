@@ -22,7 +22,7 @@ void main()
 	
 	vec2 originNative = origin * texdim0;
 	vec2 destination = texcoord - originNative;
-	vec2 off = (destination * amount)/(texdim0 * amount); 
+	vec2 off = (destination * amount + 1.0)/(texdim0 * amount + 1.0); 
 
 	texcoord0 = destination + originNative;
 	texcoord1 = ((destination + off * 3. * (amount * 0.2)) + originNative);
