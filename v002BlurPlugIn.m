@@ -13,7 +13,6 @@
 
 #define	kQCPlugIn_Name				@"v002 Gaussian Blur"
 #define	kQCPlugIn_Description		@"Massive Blur Massively fast"
-#define	kQCPlugIn_Category          [NSArray arrayWithObjects:@"v002", @"v002 Blur", nil]
 
 
 #pragma mark -

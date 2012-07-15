@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleGetInfoString</key>
-	<string>v002 Blurs version 2.0.3 © 2009-2012 vade &amp; bangnoise</string>
+	<string>v002 Blurs version 2.0.3 © 2008-2012 vade &amp; bangnoise</string>
 	<key>CFBundleIconFile</key>
 	<string>icon</string>
 	<key>CFBundleIdentifier</key>

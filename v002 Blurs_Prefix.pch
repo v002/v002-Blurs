@@ -1,4 +1,4 @@
-#define	kQCPlugIn_Category [NSArray arrayWithObjects:@"v002", @"v002 Blur", nil]
+#define	kQCPlugIn_Category [NSArray arrayWithObjects:@"v002", @"v002 Blurs", nil]
 
 #define v002_FBO_CLASS_NAME_REPLACE_ME v002BlursFBO
 #define v002_SHADER_CLASS_NAME_REPLACE_ME v002BlursShader
