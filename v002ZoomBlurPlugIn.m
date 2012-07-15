@@ -11,7 +11,7 @@
 
 #import "v002ZoomBlurPlugIn.h"
 
-#define	kQCPlugIn_Name				@"v002 Blur: Zoom Blur"
+#define	kQCPlugIn_Name				@"v002 Zoom Blur"
 #define	kQCPlugIn_Description		@"Massive Zoom Blur Massively fast"
 
 
@@ -30,7 +30,9 @@ static void _TextureReleaseCallback(CGLContextObj cgl_ctx, GLuint name, void* in
 
 + (NSDictionary*) attributes
 {
-	return [NSDictionary dictionaryWithObjectsAndKeys:kQCPlugIn_Name, QCPlugInAttributeNameKey, [kQCPlugIn_Description stringByAppendingString:kv002DescriptionAddOnText], QCPlugInAttributeDescriptionKey, nil];
+	return [NSDictionary dictionaryWithObjectsAndKeys:kQCPlugIn_Name, QCPlugInAttributeNameKey,
+            [kQCPlugIn_Description stringByAppendingString:kv002DescriptionAddOnText], QCPlugInAttributeDescriptionKey,
+            kQCPlugIn_Category, QCPlugInAttributeCategoriesKey, nil];
 }
 
 + (NSDictionary*) attributesForPropertyPortWithKey:(NSString*)key

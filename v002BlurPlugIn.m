@@ -11,8 +11,9 @@
 
 #import "v002BlurPlugIn.h"
 
-#define	kQCPlugIn_Name				@"v002 Blur: Gaussian Blur"
+#define	kQCPlugIn_Name				@"v002 Gaussian Blur"
 #define	kQCPlugIn_Description		@"Massive Blur Massively fast"
+#define	kQCPlugIn_Category          [NSArray arrayWithObjects:@"v002", @"v002 Blur", nil]
 
 
 #pragma mark -
@@ -32,7 +33,9 @@ static void _TextureReleaseCallback(CGLContextObj cgl_ctx, GLuint name, void* in
 
 + (NSDictionary*) attributes
 {
-	return [NSDictionary dictionaryWithObjectsAndKeys:kQCPlugIn_Name, QCPlugInAttributeNameKey, [kQCPlugIn_Description stringByAppendingString:kv002DescriptionAddOnText], QCPlugInAttributeDescriptionKey, nil];
+	return [NSDictionary dictionaryWithObjectsAndKeys:kQCPlugIn_Name, QCPlugInAttributeNameKey,
+            [kQCPlugIn_Description stringByAppendingString:kv002DescriptionAddOnText], QCPlugInAttributeDescriptionKey,
+            kQCPlugIn_Category, QCPlugInAttributeCategoriesKey, nil];
 }
 
 + (NSDictionary*) attributesForPropertyPortWithKey:(NSString*)key
